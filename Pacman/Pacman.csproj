@@ -45,9 +45,15 @@
   <ItemGroup>
     <Compile Include="BigCrumb.cs" />
     <Compile Include="Crumb.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Ghost.cs" />
     <Compile Include="LittleCrumb.cs" />
+    <Compile Include="Pacman.cs" />
+    <Compile Include="PacObject.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

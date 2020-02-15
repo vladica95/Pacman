@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    class LittleCrumb : Crumb
+    class Wall : PacObject
     {
-        public LittleCrumb() :base (2)
+        public Wall()
         {
-            
+
         }
         public override void Print()
         {
-            Console.Write(".");
+            Console.Write("#");
         }
     }
 }

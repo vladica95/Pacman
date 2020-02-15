@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    abstract class Crumb
+    abstract class Crumb : PacObject
     {
         private int points;
         public Crumb(int x)
@@ -17,7 +17,7 @@ namespace Pacman
         {
             get { return this.points; }
         }
-        public abstract void Print();
+        public abstract  override void Print();
        
     }
 }

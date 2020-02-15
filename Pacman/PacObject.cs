@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    class Program
+    abstract class PacObject
     {
-        static void Main(string[] args)
-        {
-            Field polje = new Field();
-            polje.Print();
-        }
+        public PacObject() { }
+        public abstract void Print();
     }
 }
