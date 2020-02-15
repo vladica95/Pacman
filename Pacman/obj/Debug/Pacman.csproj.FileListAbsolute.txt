@@ -1,0 +1,7 @@
+E:\VS\GIT\Pacman\Pacman\bin\Debug\Pacman.exe.config
+E:\VS\GIT\Pacman\Pacman\bin\Debug\Pacman.exe
+E:\VS\GIT\Pacman\Pacman\bin\Debug\Pacman.pdb
+E:\VS\GIT\Pacman\Pacman\obj\Debug\Pacman.csprojAssemblyReference.cache
+E:\VS\GIT\Pacman\Pacman\obj\Debug\Pacman.csproj.CoreCompileInputs.cache
+E:\VS\GIT\Pacman\Pacman\obj\Debug\Pacman.exe
+E:\VS\GIT\Pacman\Pacman\obj\Debug\Pacman.pdb
