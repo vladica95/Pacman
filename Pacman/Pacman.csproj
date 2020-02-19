@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="BigCrumb.cs" />
     <Compile Include="Crumb.cs" />
+    <Compile Include="EmptySpot.cs" />
     <Compile Include="Field.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Ghost.cs" />
     <Compile Include="LittleCrumb.cs" />
     <Compile Include="Pacman.cs" />
