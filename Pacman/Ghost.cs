@@ -11,12 +11,19 @@ namespace Pacman
         private Boolean eatable;
         private int positionX;
         private int positionY;
+        private int movesEatable;
 
         public Ghost(int x,int y)
         {
             this.eatable = false;
             this.positionX = x;
             this.positionY = y;
+            this.movesEatable = 0;
+        }
+        public int MovesEatable
+        {
+            get { return this.movesEatable; }
+            set { this.movesEatable = value; }
         }
         public int PositionX
         {
@@ -45,12 +52,11 @@ namespace Pacman
         }
         public override void Print()
         {
-            Console.Write("@");
+            if (Eatable)
+            {
+                Console.Write("$");
+            }
+           else Console.Write("@");
         }
-        public void PrintK()
-        {
-            Console.Write("x: "+PositionX+"  y: "+ PositionY);
-        }
-
     }
 }

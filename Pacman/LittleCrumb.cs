@@ -8,7 +8,7 @@ namespace Pacman
 {
     class LittleCrumb : Crumb
     {
-        public LittleCrumb() :base (2)
+        public LittleCrumb() :base (5)
         {
             
         }

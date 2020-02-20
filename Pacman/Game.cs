@@ -13,7 +13,20 @@ namespace Pacman
         public Game()
         {
             field = new Field();
-            field.GhostAttack();
+            field.Print();
+
+        }
+        public Boolean Crumbs()
+        {
+            if (field.Crumbs>0)
+            return true;
+            else return false;
+        }
+        public int PacmanMove(string move)
+        {
+            int points= field.PacmanMove(move);
+            field.Print();
+            return points;
         }
     }
 }

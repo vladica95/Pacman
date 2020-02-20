@@ -8,7 +8,7 @@ namespace Pacman
 {
     class BigCrumb : Crumb
     {
-        public BigCrumb() : base (10)
+        public BigCrumb() : base (20)
         {
 
         }
