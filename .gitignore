@@ -1,4 +1,5 @@
 .gitignore
+.gitattributes
 .vs
 .git
 Pacman/bin
